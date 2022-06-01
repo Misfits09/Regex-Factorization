@@ -1,8 +1,9 @@
 {
   "name": "regex-factorize",
   "displayName": "Regex factorization of numbers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "build/index.js",
+  "license": "GPL-3.0",
   "repository": {
     "url": "https://github.com/Misfits09/regex-factorize.git",
     "type": "git"
@@ -11,6 +12,9 @@
     "email": "nathan.perriolat@protonmail.com",
     "name": "Misfits09",
     "url": "https://github.com/Misfits09"
+  },
+  "scripts": {
+    "build": "tsc index.ts --declaration --outDir build"
   },
   "devDependencies": {
     "@types/node": "^17.0.38"
