@@ -1,0 +1,13 @@
+{
+  "name": "regex-factorize",
+  "displayName": "Regex factorization of numbers",
+  "version": "0.0.1",
+  "author": {
+    "email": "nathan.perriolat@protonmail.com",
+    "name": "Misfits09",
+    "url": "https://github.com/Misfits09"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.38"
+  }
+}
