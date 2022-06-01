@@ -66,5 +66,3 @@ export const simplifyExistingRegex = (regex: string) => regex.replace(/^((\d+|(\
     const simplified = regexFromNumberArray(match.split('|').map(s => s.replace(/(^\()|(\)$)/g, '')).map(s => parseInt(s)))
     return `(${simplified})`
 })
-
-console.log(regexFromNumberArray([123,124,125,5678,5689]))
