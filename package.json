@@ -2,6 +2,11 @@
   "name": "regex-factorize",
   "displayName": "Regex factorization of numbers",
   "version": "0.0.1",
+  "main": "build/index.js",
+  "repository": {
+    "url": "https://github.com/Misfits09/regex-factorize.git",
+    "type": "git"
+  },
   "author": {
     "email": "nathan.perriolat@protonmail.com",
     "name": "Misfits09",
