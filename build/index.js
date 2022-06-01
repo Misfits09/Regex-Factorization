@@ -71,4 +71,3 @@ var simplifyExistingRegex = function (regex) { return regex.replace(/^((\d+|(\(\
     return "(".concat(simplified, ")");
 }); };
 exports.simplifyExistingRegex = simplifyExistingRegex;
-console.log((0, exports.regexFromNumberArray)([123, 124, 125, 5678, 5689]));
