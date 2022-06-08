@@ -1,7 +1,7 @@
 {
   "name": "regex-factorize",
   "displayName": "Regex factorization of numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/index.js",
   "license": "GPL-3.0",
   "repository": {
